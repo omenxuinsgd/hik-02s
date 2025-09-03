@@ -1,12 +1,5 @@
 {
   "version": 2,
-  "redirects": [
-    {
-      "source": "/",
-      "destination": "/en",
-      "permanent": false
-    }
-  ],
   "builds": [
     {
       "src": "apps/api-harmonization/package.json",
@@ -28,3 +21,4 @@
     }
   ]
 }
+
