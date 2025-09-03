@@ -82,8 +82,9 @@ export const AuthModuleBaseModule = AuthModule.Module.register(AppConfig);
         ConfigModule.forRoot({
             isGlobal: true,
             load: [configuration],
-            ignoreEnvFile: process.env.NODE_ENV !== 'development',
-            envFilePath: `.env.local`,
+            // ignoreEnvFile: process.env.NODE_ENV !== 'development',
+            // envFilePath: `.env.local`,
+            envFilePath: '../../.env',
         }),
 
         CMSBaseModule,
