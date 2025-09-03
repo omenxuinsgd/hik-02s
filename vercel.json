@@ -13,7 +13,7 @@
   "routes": [
     {
       "src": "/api/(.*)",
-      "dest": "/apps/api-harmonization"
+      "dest": "/apps/api-harmonization/dist/main.js"
     },
     {
       "src": "/(.*)",
